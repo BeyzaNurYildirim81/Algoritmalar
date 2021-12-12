@@ -1,8 +1,0 @@
-[16,21,11,8,12,22] -> Merge Sort
-1. adım diziyi ikiye böl: 16,21,11 ve 8,12,22
-2. adım çıkan bu dizileri de ikiye böl: 16,21 ; 11 ; 8,12 ve 22
-3. adım elde edilen parçalar 2 veya daha küçük eleman sayısına ulaştığı için dur (aksi durumda bölme işlemi devam edecekti)
-4. adım her parçayı kendi içinde sırala: 16,21 ; 11 ; 8,12 ve 22
-5. Her bölünmüş parçayı birleştir ve birleştirirken sıraya dikkat ederek birleştir: 8,11,12,16,21,22
-
---->BU algoritmanın Big-O gösterimi ise "O(n*Log n)" şeklindedir. 
